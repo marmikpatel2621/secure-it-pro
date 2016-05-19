@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/purpleactionbar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gridcontentbackground"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="15dp"
+			    android:layout_marginBottom="15dp"
+			    android:text="Registration Form"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+			    android:gravity="center"
+			    android:textSize="24sp"
+            android:textStyle="bold|italic" 
+              android:typeface="sans"
+			    android:textColor="@color/purpletextviewfont"
+			    />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/user" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:background="#f3f3f3"
+                android:hint="Name"
+                android:inputType="text"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/etMobile"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:hint="Mobile"
+                android:inputType="number"
+                android:paddingLeft="5dp" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:entries="@array/country_arrays"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/etSecurityque"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:hint="Select Security Quetion"
+                android:inputType="text"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/etCPass"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <Button
+                android:id="@+id/bCreateAccount"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/btn"
+                android:text="submit"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

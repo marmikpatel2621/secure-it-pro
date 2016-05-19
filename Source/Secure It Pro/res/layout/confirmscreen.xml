@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvConfirmScreenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Confirm Your Passcode"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/purpleborder"
+        android:textSize="21dp" />
+
+    <LinearLayout
+        android:id="@+id/lEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:weightSum="1.0" >
+
+        <EditText
+            android:id="@+id/et21"
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+           	android:alpha="0.5"
+            android:background="@drawable/gridcontentbackground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/purpletextviewfont"
+            android:textSize="45sp"
+            android:layout_margin="1dp"/>
+
+        <EditText
+            android:id="@+id/et22"
+             android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+           	android:alpha="0.5"
+            android:background="@drawable/gridcontentbackground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/purpletextviewfont"
+            android:textSize="45sp"
+            android:layout_margin="1dp" />
+
+        <EditText
+            android:id="@+id/et23"
+           android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+           	android:alpha="0.5"
+            android:background="@drawable/gridcontentbackground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/purpletextviewfont"
+            android:textSize="45sp"
+            android:layout_margin="1dp"/>
+
+        <EditText
+            android:id="@+id/et24"
+           android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+           	android:alpha="0.5"
+            android:background="@drawable/gridcontentbackground"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textColor="@color/purpletextviewfont"
+            android:textSize="45sp"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/purpleactionbar"
+        android:weightSum="1.0" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.25"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="1"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp"
+                android:layout_margin="1dp" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="2"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="3"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp"
+                android:layout_margin="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.25"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/b24"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="4"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b25"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="5"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b26"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="6"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.25"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/b27"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="7"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b28"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="8"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b29"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="9"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.25"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/b2Ok"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="OK"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="0"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+
+            <Button
+                android:id="@+id/b2Del"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gridcontentbackground"
+                android:text="DEL"
+                android:textColor="@color/purpleborder"
+                android:textSize="30dp" 
+                android:layout_margin="1dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="@drawable/gridcontentbackground"
+    >
+<TextView
+	android:id="@+id/path"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+         android:layout_marginTop="1dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/gridcontentbackground"
+        android:textColor="@color/purpletextviewfont"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        android:text="Hidden Data"
+    />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gridcontentbackground"
+        android:cacheColorHint="@color/purpleborder"
+        android:choiceMode="multipleChoice"
+        android:fadingEdge="none"
+        android:longClickable="true" >
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No Data" />
+</LinearLayout>

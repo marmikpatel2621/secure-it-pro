@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="purpleactionbar" type="color">#3460AC</item>
+    <item name="actionbartitle" type="color">#FFFFFF</item>
+    <item name="purpleborder" type="color">#3460AC</item>
+    <item name="lightblue" type="color">#85A0CD</item>
+	<item name="purpletextviewfont" type="color">#3460AC</item>
+	<item name="onetouch" type="color">#362F2D</item>
+ 
+   
+</resources>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gridcontentbackground"
+    tools:context="com.example.audio.UnhidePathSelectionActivity" >
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+         android:layout_marginTop="1dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/gridcontentbackground"
+        android:textColor="@color/purpletextviewfont"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        android:text="Hidden Data"
+      />
+    <ListView
+	android:id="@android:id/list"
+	 android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gridcontentbackground"
+        android:cacheColorHint="@color/purpleborder"
+        android:choiceMode="multipleChoice"
+        android:fadingEdge="none"
+        android:longClickable="true"
+    android:layout_weight="1"
+	/>
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:background="@drawable/gridcontentbackground">
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="1dp"
+       android:layout_weight="1"
+       android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:text="Select" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1dp"
+        android:text="Cancel" 
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:layout_weight="1"/>
+	 </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="antitheft_front_page_color">#13b586</color>
+     <color name="applock_front_page_color">#13b586</color>
+</resources>

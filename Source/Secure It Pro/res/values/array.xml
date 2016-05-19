@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="country_arrays">
+        <item>--Select Question--</item>
+        <item>What was your childhood nickname?</item>
+        <item>In what city or town was your first job?</item>
+        <item>What is your favorite color?</item>
+        <item>What is your favorite animal?</item>
+    </string-array>
+
+</resources>

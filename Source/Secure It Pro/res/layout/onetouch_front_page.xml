@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/purpleactionbar" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gridcontentbackground"
+            android:orientation="vertical" >
+			
+              <TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="15dp"
+			    android:layout_marginBottom="15dp"
+			    android:text="One Touch Call"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+			    android:gravity="center"
+			    android:textSize="24sp"
+            android:textStyle="bold|italic" 
+              android:typeface="sans"
+			    android:textColor="@color/purpletextviewfont"
+			    />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/onetouch" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingTop="25dp" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1" >
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="0.5"
+                        android:gravity="center_horizontal" >
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Mobile Number"
+                                android:textStyle="bold"
+                                android:textColor="@color/purpletextviewfont"
+                                android:textSize="20sp"
+                                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView>
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.5"
+                        android:gravity="center_horizontal" >
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal" >
+
+                            <TextView
+                                android:id="@+id/etOneTouchNumber"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Not Specified"
+                                android:textStyle="italic"
+                                android:textSize="20sp"
+                                   android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/purpletextviewfont" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+            </TableLayout>
+                   <Button
+                android:id="@+id/bOneTouchSelectContact"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn"
+                android:text="Set Mobile Number"
+                  android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+</ScrollView>

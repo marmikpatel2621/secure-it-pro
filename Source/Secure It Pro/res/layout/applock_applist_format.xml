@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/gridcontentbackground">
+
+    <CheckBox
+        android:id="@+id/cbapplockCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/custom_checkbox_design"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@id/cbapplockCheckBox" >
+
+        <ImageView
+            android:id="@+id/ivAppLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="ICON"
+            android:gravity="center_vertical"
+            android:src="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:gravity="left"
+           >
+
+            <TextView
+                android:id="@+id/tvAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvPackageName"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/purpletextviewfont" />
+
+            <TextView
+                android:id="@+id/tvPackageName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAppName"
+                android:layout_marginLeft="28dp"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="@color/onetouch" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape >
+            <gradient
+                android:startColor="#E1F5FE"
+                android:type="sweep"
+                android:centerColor="#E1F5FE"
+                android:endColor="#E1F5FE"
+                android:angle="270" />
+           
+        <!--    <solid android:color="@color/purpleactionbar"/> -->
+         <!--    <corners
+                android:radius="20dp" /> -->
+            <padding
+                android:left="1dp"
+                android:top="1dp"
+                android:right="1dp"
+                android:bottom="1dp" />
+        </shape>
+    </item>
+</selector>
